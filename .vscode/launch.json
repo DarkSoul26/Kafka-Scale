@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "KafkaSimpleConsumer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter3.KafkaSimpleConsumer",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "KafkaSimpleProducer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter3.KafkaSimpleProducer",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "KafkaProducerWithOptions",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter4.KafkaProducerWithOptions",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "KafkaConsumerWithOptions",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter5.KafkaConsumerWithOptions",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "ScalableConsumer",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter5.ScalableConsumer",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "UseCaseConsumerWithOptions",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter7.UseCaseConsumerWithOptions",
+            "projectName": "kafka-scalable-apps"
+        },
+        {
+            "type": "java",
+            "name": "UseCaseProducerWithOptions",
+            "request": "launch",
+            "mainClass": "com.learning.kafkascalableapps.chapter7.UseCaseProducerWithOptions",
+            "projectName": "kafka-scalable-apps"
+        }
+    ]
+}
